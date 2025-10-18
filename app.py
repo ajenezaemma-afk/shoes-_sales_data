@@ -13,7 +13,7 @@ import os
 
 
 # Load the trained model
-loaded_model = pickle.load(open('shoes data/shoes_sales_data.sav', 'rb'))
+loaded_model = pickle.load(open('shoes_sales_data.sav', 'rb'))
 
 def shoes_price_prediction(brand, color, size):
                             
@@ -57,3 +57,4 @@ def main():
 if __name__ == '__main__':
 
     main()         
+
